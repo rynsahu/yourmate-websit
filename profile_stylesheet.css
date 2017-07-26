@@ -1,0 +1,163 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+#top_bk{
+	border:1px solid hidden;
+	height:11%;
+}
+
+#page_name,#search_box,#search_button,#user_pic,#name{
+	display:inline;
+}
+
+#hader{
+	border:1px solid hidden;
+	height:11%;
+	background-color:#676565;
+	position:fixed;
+	width:100%;
+	padding-left:13%;
+	padding-top:3px;
+	padding-right:26%;
+	padding-bottom:3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+
+#user_pic{
+	border-radius:50%;
+	margin-top:10px;
+	margin-left:100px;
+}
+
+#page_name_link{
+	text-decoration:none;
+	font-family:Papyrus, fantasy;
+	color:white;
+	font-size:48px;	
+}
+
+#name{
+	color:white;
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+#search_box{
+	border:1px solid hidden;
+	border-radius:20px;
+	height:28px;
+	width:25%;
+	padding-left:13px;
+	margin-left:;
+	border: none;
+	margin-left:100px;
+}
+
+#search_button{
+    background-color: ;
+    margin-top: 30px;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+	height:28px;
+	background-color:#F4F6F6;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:2px;
+}
+
+#search_button:hover{
+	background-color:#A4A7A7;
+	color:white;
+}
+
+#left_content{
+	border:1px dotted red;
+	width:14%;
+	height:100%;
+	padding-top:10px;
+}
+
+.right_links{
+	text-decoration:none;
+	color:#424343;
+	font-size:16px;
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+
+.right_cn{
+	border:1px solid hidden;
+	padding:2px;
+	padding-left:12px;
+}
+
+.right_cn:hover{
+	background-color:#E5E8E8;
+}
+
+
+
+a.table_link{
+	text-decoration:none;
+	color:#B6B2B2;
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size:16px;
+}
+a.table_link:hover{
+	text-decoration:underline;
+	
+}
+
+#footer1{
+	border:1px solid #444343;
+	background-color:#444343;
+	height:32%
+}
+
+#footer2{
+	border:1px solid pink;
+	margin-left:12%;
+	margin-right:12%;
+}
+
+#footer3{
+	border:1px solid hidden;
+	margin-left:12%;
+	float:left;
+	width:55%;
+	padding-top:40px;
+	padding-left:3px;
+}
+
+
+#footer4{
+	border:1px solid hidden;
+	height:44%;
+	margin-left:947px;
+	margin-right:12%
+}
+
+#last_countent{
+	color:#8E8E8E;
+	font-family:Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size:14px;
+	font-style:normal;
+	text-align:center;
+	padding-top:20px;
+}
+
+#last_footer{
+	border:1px solid hidden;
+}
+
+.page_name_footer{
+	text-decoration:none;
+	color:#B6B2B2;
+	font-family:Papyrus, fantasy;
+    font-size:45px;
+	padding-top:30px;
+}

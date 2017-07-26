@@ -1,0 +1,81 @@
+ <html>
+ <head>
+  <title>Profile</title>
+  <link rel="stylesheet" type="text/css" href="profile_stylesheet.css">
+ </head>
+ <body bgcolor="#F2F4F4">
+    <div id="top_bk">
+	    <div id="hader">
+		    <h1 id="page_name"><a href="yourmate.html" id="page_name_link">YourMate</a></h1>
+		    <input type="text" name="search_text" placeholder="Search" id="search_box"></input>
+		    <input type="button" name="search_button" value="Search" id="search_button"></input>
+		    <img src="\yourmate\image\user_image.png" height="40px" id="user_pic">
+		    <p id="name">
+			<?php
+                if(loggedin())
+                {
+	                $firstname=getuseridfield('firstname');
+	                $lastname=getuseridfield('lastname');
+	                echo $firstname.' '.$lastname.'   <a href="logout.php">Log out</a>';
+                }
+                else
+                {
+	                include 'login.html';
+                }			
+			?>
+			</p>
+		</div>
+    </div>	
+	<div id="contents">
+
+	    <div id="left_content">
+	        <a href="#" class="right_links"><p class="right_cn">About</p></a>
+		    <a href="#" class="right_links"><p class="right_cn">Profile</p></a>
+		    <a href="#" class="right_links"><p class="right_cn">Messages</p></a>
+		    <a href="#" class="right_links"><p class="right_cn">Uploads</p></a>
+		    <a href="#" class="right_links"><p class="right_cn">Folders</p></a>
+	    </div>
+	</div>
+	<div id="footer1">
+		    
+			    <div id="footer3">
+				    <table>
+			        <tr>
+			           <td><a href="signup.html" class="table_link">Sign Up</td></a>
+					   <td><a href="login.html" class="table_link">Log In</td></a>
+					   <td><a href="#" class="table_link">Messenger</td></a>
+					   <td><a href="#" class="table_link">Mobile</td></a>
+				       <td><a href="#" class="table_link">Find Friends</td></a>
+					   <td><a href="#" class="table_link">People</td></a>
+					   <td><a href="#" class="table_link">Pages</td></a>
+				    </tr>
+				   	<tr>	
+			            <td><a href="#" class="table_link">Locations</td></a>
+					    <td><a href="#" class="table_link">Group</td></a>
+					    <td><a href="#" class="table_link">About</td></a>
+				    	<td><a href="#" class="table_link">Create Page</td></a>
+				    	<td><a href="#" class="table_link">privacy</td></a>					 
+				        <td><a href="#" class="table_link">Help</td></a>
+				        <td><a href="#" class="table_link">Terms</td></a>
+				    </tr>
+				    <tr>
+				        <td><a href="#" class="table_link">Celebrities</td></a> 
+                        <td><a href="#" class="table_link">Creat Advert</td></a>					
+				    </tr>
+				
+                </table>
+
+			    </div>
+		        <div id="footer4">
+				  <h1 class="page_name_footer"><a href="yourmate.html" class="page_name_footer">YourMate</a></h1>
+				</div>
+				
+				<div id="last_footer">
+				  <p id="last_countent">Thanks for visiting! We hope you enjoy your YourMate experience. 
+				  Just to let you know you visited one of our paid endorsements before arriving at our site.<br>
+				  Aryan sahu &#169; YourMate. All Rights Reserved</p>
+				</div>
+		</div>
+ 
+ </body>
+ </html>

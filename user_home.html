@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<title>YourMate home</title>
+<link rel="stylesheet" href="user_home.css">
+</head>
+<body>
+<div id="top_bk">
+	    <div id="hader">
+		    <h1 id="page_name"><a href="yourmate.html" id="page_name_link">YourMate</a></h1>
+		    <input type="text" name="search_text" placeholder="Search" id="search_box"></input>
+		    <input type="button" name="search_button" value="Search" id="search_button"></input>
+		    <img src="\yourmate\image\aryan.jpg" height="40px" id="user_pic">
+		    <p id="name">
+			<?php
+                if(loggedin())
+                {
+	                $firstname=getuseridfield('firstname');
+	                $lastname=getuseridfield('lastname');
+	                echo '<a href=profile_link.php style="color:white; text-decoration:none;">'.$firstname.' '.$lastname.'</a>   <a href="logout.php" style=color:#49F9E3;>Log out</a>';
+                }
+                else
+                {
+	                include 'login.html';
+                }			
+			?>
+			</p>
+		</div>
+	</div>
+
+<header>
+<p> header </p>
+</header>
+
+<section>
+<br>
+<div class="item1">
+
+	<div id="image1">
+	<img src="\yourmate\image\mp3.png">
+	</div>	
+	
+	<div id="desc">
+	<a href class="hh"><br><br><br>WHAT MAKES YOU BEAUTIFUL </a>
+	<p><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uploaded by- ninja7 </p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on 26 march 2016 </p>
+	</div>
+</div>
+
+
+
+<div class="item2">
+	<div id="image2">
+	<img src="\yourmate\image\pdf.png">
+	</div>	
+	<div id="desc">
+	<a href class="hh"><br><br><br>THE THEORY OF EVERYTHING </a>
+	<p><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uploaded by- bikki88 </p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on 30 march 2016 </p>
+	</div>
+</div>
+	
+	<div class="item3">
+	
+	<div id="image3">
+	<img src="\yourmate\image\jpg.png">
+	</div>	
+	<div id="desc">
+	<a href class="hh"><br><br><br>THE SKYLINE </a>
+	<p><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uploaded by- sniper </p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on 1 april 2016 </p>
+	</div>
+</div>
+
+<div class="item4">
+
+	<div id="image3">
+	<img src="\yourmate\image\ppt.png">
+	</div>	
+	<div id="desc">
+	<a href class="hh"><br><br><br>MODEL QUESTIONS 2016 </a>
+	<p><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uploaded by- aryan9 </p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on 2 april 2016 </p>
+	</div>
+</div>
+
+</section>
+
+<p id="online"><br><br><br></p>
+
+<aside>
+
+
+
+
+
+<div class="friends">
+	<div class="scroll">
+	
+	<div class="f1">
+		<img src="\yourmate\image\krish.jpg">
+		<p><h3><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KRISHNANDU</h3></p>
+		<p><h4>&nbsp;&nbsp;online</h4></p>
+	</div>
+	
+	<div class="f1">
+		<img src="\yourmate\image\aryan.jpg">
+		<p><h3><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ARYAN SAHU</h3></p>
+		<p><h4>&nbsp;&nbsp;online</h4></p>
+	</div>
+	
+	<div class="f1">
+		<img src="\yourmate\image\rouman.jpg">
+		<p><h3><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUMAN</h3></p>
+		<p><h4>&nbsp;&nbsp;online</h4></p>
+	</div>
+	
+	<div class="f1">
+		<img src="\yourmate\image\bikki.jpg">
+		<p><h3><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BIKKI KUMAR</h3></p>
+		<p><h4>&nbsp;&nbsp;online</h4></p>
+	</div>
+	
+	<div class="f1">
+		<img src="\yourmate\image\alisa.jpg">
+		<p><h3><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALISA ROY</h3></p>
+		<p><h4>&nbsp;&nbsp;online</h4></p>
+	</div>
+	
+	<div class="f1">
+		<img src="\yourmate\image\richa.jpg">
+		<p><h3><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRANITA PRADHAN</h3></p>
+		<p><h4>&nbsp;&nbsp;online</h4></p>
+		
+	</div>
+	
+	<div class="f1">
+		<img src="\yourmate\image\areef.jpg">
+		<p><h3><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AREEF SYED</h3></p>
+		<p><h4>&nbsp;&nbsp;online</h4></p>
+		
+	</div>
+
+
+</div>
+
+</div>
+</aside>
+
+
+
+</body>
+</html>

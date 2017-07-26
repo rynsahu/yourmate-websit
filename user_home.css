@@ -1,0 +1,299 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#top_bk{
+	border:2px dotted hidden;
+	height:11%;
+}
+
+#page_name,#search_box,#search_button,#user_pic,#name{
+	display:inline;
+}
+
+#hader{
+	border:1px solid hidden;
+	height:11%;
+	background-color:#676565;
+	position:fixed;
+	width:100%;
+	padding-left:13%;
+	padding-top:3px;
+	padding-right:26%;
+	padding-bottom:3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+
+#user_pic{
+	border-radius:50%;
+	margin-top:10px;
+	margin-left:100px;
+}
+
+#page_name_link{
+	text-decoration:none;
+	font-family:Papyrus, fantasy;
+	color:white;
+	font-size:49px;	
+}
+
+#name{
+	color:white;
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+#search_box{
+	border:1px solid hidden;
+	border-radius:20px;
+	height:28px;
+	width:25%;
+	padding-left:13px;
+	margin-left:;
+	border: none;
+	margin-left:100px;
+}
+
+#search_button{
+    background-color: ;
+    margin-top: 30px;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+	height:28px;
+	background-color:#F4F6F6;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:2px;
+}
+
+#search_button:hover{
+	background-color:#A4A7A7;
+	color:white;
+}
+
+#profile_link{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	background-color:#e0e0e0;
+}
+
+
+header
+{
+height:65px;
+background-color:#1c171c;
+color:white;
+}
+
+section
+{
+width:700px;
+
+left:30px;
+top:30px;	
+
+margin:50px;
+float:left;
+clear:right;
+	
+}
+	
+.item1, .item2, .item3, .item4
+{
+	color:white;
+	margin:30px;
+	height:250px;
+	width:650px;
+	
+}
+
+.hh
+{
+	text-decoration:none;
+	font-size:25px;
+	color:black;
+	
+	left:20px;
+	top:70px;
+	
+}
+.hh:hover
+{
+	text-decoration:underline;
+
+	
+	
+}
+.item1
+{
+	border-radius:20px;
+	background-color:#3F51B5;
+}
+
+.item2
+{
+	border-radius:20px;
+	background-color:#26A69A;
+}
+
+
+.item3
+{
+	border-radius:20px;
+	background-color:orange;
+}
+
+.item4
+{
+	border-radius:20px;
+	background-color:#4CAF50;
+		
+}
+#image1>img
+{	
+	float:left;
+	height: 250px;
+	width:250px;
+}
+#image2>img
+{	
+	float:left;
+	height:240px;
+	width:240px;
+	margin-top:5px;
+}
+#image3>img
+{	
+	float:left;
+	height: 250px;
+	width:250px;
+}
+#image4>img
+{	
+	float:left;
+	height:260px;
+	width:260px;
+}
+#desc>p
+{
+	font-size:22px;
+	
+	top:110px;
+	left:125px;
+	margin:10px;
+}
+#desc
+{
+	
+}
+
+.friends
+{
+	
+    float:right;
+		
+		top:85px;
+		right:70px;
+	
+	height:535px;
+	width:350px;
+	background-color:#e1e1e1;
+	
+}
+#online
+{
+	display:inline;
+	left:250px;
+	top:70px;
+	color:black;
+	font-weight:10px;
+	font-size:25px;
+}
+.f1
+{
+	border-radius:5px;
+	background-color:#C5CAE9;
+	margin-top:10px;
+	margin-left:20px;
+	height:100px;
+	width:310px;
+}
+
+.f1>img
+{
+	height:100px;
+	width:100px;
+	float:left;
+}
+.f1>h3
+{	
+	
+	color:teal;
+	font-weight:1300;
+	
+	left:40px;
+	top:20px;
+
+}
+.f1>h4
+{
+		
+	margin-top:30px;
+}
+.scroll
+{
+	height:550px;
+	width:370px;
+	overflow: scroll;
+}
+
+
+

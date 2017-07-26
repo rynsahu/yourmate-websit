@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>LogIn</title>
+        <link rel="stylesheet" href="loginStylesheet.css">
+    </head>
+    <body background="image/bk6.jpg">
+        <h1 id="page_name"><a href="yourmate.html" id="page_name_link">YourMate</a></h1>
+		    <div id="login_box">
+			    <p id="welcome"><b>Welcome back!</b><br>Login to your account below</p>
+				
+				<form action="loginRec.php" method="POST">
+				    <input type="text" name="email" placeholder="Email Address" id="email"><br>
+					<input type="password" name="password" placeholder="Password" id="password"><br>
+					<input type="submit" id="login_button" value="Log In">
+				</form>
+				<table style="color:#F8F9F9; margin-top:27px; font-family:Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;">
+				    <tr>
+                        <td style="width:47%"><hr/></td>
+                        <td style="vertical-align:middle; text-align:center;">OR</td>
+                        <td style="width:47%"><hr/></td>
+                    </tr>
+				</table>
+				<form action="#">
+				    <input type="button" name="google_login" value="Sign In" id="google_login">
+					<input type="button" name="facebook_login" value="Sign In" id="facebook_login">
+				</form>
+            </div><br>
+        <p id="footer1"><a href="#" class="footer_link">Forgotten password?</a></p>
+        <p id="footer2"><a href="signup.html" class="footer_link">Create an account</a></p>
+    </body>
+</html>
